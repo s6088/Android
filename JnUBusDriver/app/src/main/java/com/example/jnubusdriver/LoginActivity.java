@@ -14,7 +14,7 @@ import android.support.annotation.NonNull;
 import android.widget.Toast;
 import android.view.View;
 
-public class Login extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
     private FirebaseAuth.AuthStateListener mAuthListener;
@@ -41,7 +41,7 @@ public class Login extends AppCompatActivity {
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 FirebaseUser user = firebaseAuth.getCurrentUser();
                 if (user != null) {
-                    Intent mySuperIntent = new Intent(Login.this, Home.class);
+                    Intent mySuperIntent = new Intent(LoginActivity.this, HomeActivity.class);
                     startActivity(mySuperIntent);
                 }
             }
@@ -81,13 +81,7 @@ public class Login extends AppCompatActivity {
         });
 
 
-//        btnSignOut.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                mAuth.signOut();
-//                toastMessage("Signing Out...");
-//            }
-//        });
+
 
 
     }

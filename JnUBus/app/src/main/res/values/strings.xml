@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">JnUBus</string>
+    <string name="google_maps_key">AIzaSyDhhwfZgJv4DCVuX-RDuXLXfoHWL6FIPAw</string>
+    <string name="title_activity_navigation">Map</string>
+    <string name="title_activity_stoppage">StoppageActivity</string>
+    <string name="title_activity_route">Map</string>
+</resources>

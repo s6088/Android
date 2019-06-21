@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent mySuperIntent = new Intent(MainActivity.this, Login.class);
+                Intent mySuperIntent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(mySuperIntent);
                 finish();
             }

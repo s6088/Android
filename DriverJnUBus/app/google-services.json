@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "895422410199",
+    "firebase_url": "https://jnubus-160d1.firebaseio.com",
+    "project_id": "jnubus-160d1",
+    "storage_bucket": "jnubus-160d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895422410199:android:04037b95bdd08faa",
+        "android_client_info": {
+          "package_name": "com.example.driverjnubus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895422410199-gc4i77cmvihv4v3l5jlb8rj38s4jkigj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.driverjnubus",
+            "certificate_hash": "718bda69a3cd20f72332516f0f289859803c96ad"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZfnb2YKtmPSVVWxEz-jwODv-m1I_nU4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895422410199:android:4e7b8b9eaffb23de",
+        "android_client_info": {
+          "package_name": "com.example.jnubusdriver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895422410199-h7kgbdsondibeh9v1bt9bi4gcfq0f951.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.jnubusdriver",
+            "certificate_hash": "718bda69a3cd20f72332516f0f289859803c96ad"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZfnb2YKtmPSVVWxEz-jwODv-m1I_nU4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

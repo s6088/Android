@@ -3,7 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".StoppageActivity">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textAppearance="@style/TextViewRegular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="J n U B u s"
+        android:textColor="#fac564"
+        android:textSize="30sp" />
 
 
     <ListView android:id="@+id/bus_details_route_list_lv"
@@ -19,6 +30,7 @@
         android:layout_marginRight="20dp" />
 
     <android.support.design.widget.FloatingActionButton
+        android:background="@drawable/ic_location_on_black_24dp"
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

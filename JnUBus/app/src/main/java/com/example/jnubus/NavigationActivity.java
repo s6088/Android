@@ -44,7 +44,7 @@ public class NavigationActivity extends FragmentActivity implements OnMapReadyCa
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_navigation);
         database = FirebaseDatabase.getInstance();
-        myRef = database.getReference("buses/1");
+        myRef = database.getReference("buses/e2Aar2z3RhOEtm2p1Pm0biTI3Rv2");
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 

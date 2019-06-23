@@ -4,4 +4,16 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+
+
+    <style name="TextViewRegular" parent="@android:style/TextAppearance">
+        <item name="fontFamily">@font/unineue_regular</item>
+    </style>
+
+
+    <style name="TextViewBold" parent="@android:style/TextAppearance">
+        <item name="android:textStyle">bold</item>
+        <item name="fontFamily">@font/unineue_bold</item>
+    </style>
+
 </resources>

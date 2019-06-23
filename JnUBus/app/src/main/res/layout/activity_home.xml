@@ -4,7 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textAppearance="@style/TextViewRegular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="J n U B u s"
+        android:textColor="#fac564"
+        android:textSize="30sp" />
 
     <FrameLayout
         android:id="@+id/fragment_container"

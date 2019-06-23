@@ -8,6 +8,17 @@
     android:background="@drawable/bg"
     tools:context=".HomeActivity">
 
+    <TextView
+        android:layout_margin="40dp"
+        android:textAppearance="@style/TextViewBold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="J  n  U  B u  s"
+        android:textColor="#fff"
+        android:textSize="30sp" />
+
+
 
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
@@ -31,12 +42,14 @@
 
 
         <android.support.design.widget.FloatingActionButton
+            android:src="@drawable/ic_settings_backup_restore_black_24dp"
+            android:onClick="logOut"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
             app:backgroundTint="@color/colorPrimaryDark"
-            tools:fabSize="mini" />
+            tools:fabSize="normal" />
 
 
 </LinearLayout>
